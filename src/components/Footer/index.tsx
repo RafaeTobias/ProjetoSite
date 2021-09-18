@@ -1,6 +1,4 @@
 import * as S from "./styles"
-import logo from "assets/img/Group 1.svg"
-import { Link } from "react-router-dom"
 import fotoWpp from "assets/img/fotoWpp.svg"
 import fotoIG from "assets/img/fotoIG.svg"
 import fotoToyota from "assets/img/fotoToyota.svg"
@@ -13,12 +11,12 @@ const Footer = () => {
         <S.Footer>
             <section>
                 <picture>
-                    <a href="https://www.whatsapp.com/" target="_blank">
+                    <a href="https://www.whatsapp.com/" target="_blank" rel="noreferrer">
                         <img src={fotoWpp} alt="Foto whatsapp" />
                     </a>
                 </picture>
                 <picture className="instagram">
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
                         <img src={fotoIG} alt="Foto instagram" />
                     </a>
                 </picture>
