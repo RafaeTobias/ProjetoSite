@@ -1,0 +1,11 @@
+export { default as Header } from "./Header"
+export { default as Principal1 } from "./Principal1"
+export { default as Principal2 } from "./Principal2"
+export { default as Principal3 } from "./Principal3"
+export { default as Principal4 } from "./Principal4"
+export { default as Principal5 } from "./Principal5"
+export { default as Footer } from "./Footer"
+export { default as HeaderAnual } from "./HeaderAnual"
+export { default as HeaderMensal } from "./HeaderMensal"
+export { default as PrincipalAnual } from "./PrincipalAnual"
+
