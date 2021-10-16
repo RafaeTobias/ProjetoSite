@@ -8,4 +8,5 @@ export { default as Footer } from "./Footer"
 export { default as HeaderAnual } from "./HeaderAnual"
 export { default as HeaderMensal } from "./HeaderMensal"
 export { default as PrincipalAnual } from "./PrincipalAnual"
+export { default as Login } from "./Login"
 
