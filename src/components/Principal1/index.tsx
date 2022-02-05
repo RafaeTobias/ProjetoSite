@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import foto1 from "assets/img/foto1.svg"
 import { useEffect, useState } from "react";
 import { IProjectData } from "interface/project.interface";
-import { apiProjeto } from "service/data";
+import { apiProjeto } from "services/data";
 
 
 const Principal1 = () => {
